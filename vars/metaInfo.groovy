@@ -7,7 +7,7 @@ MetaInfo create(Map params) {
     info.commit = params.commit
     info.dockerImage = "docker.example.com/${params.dockerImage}:${info.buildVersion}"
     info.databaseMigrationImage = "docker.example.com/${params.dbMigrationImage}:${info.buildVersion}"
-    info.databaseVersion = calculateDatabaseVersion(params.databaseRolloutDir)
+    //info.databaseVersion = calculateDatabaseVersion(params.databaseRolloutDir)
 
     getBuildDirectory(info.projectName, info.buildVersion).mkdirs()
     commit(info, 'created build info')
