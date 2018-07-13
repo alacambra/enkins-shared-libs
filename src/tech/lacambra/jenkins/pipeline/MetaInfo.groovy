@@ -1,4 +1,4 @@
-package com.sebastian_daschner.jenkins.pipeline
+package tech.lacambra.jenkins.pipeline
 
 import groovy.json.JsonOutput
 import groovy.json.JsonSlurper

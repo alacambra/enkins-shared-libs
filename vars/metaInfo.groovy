@@ -1,4 +1,4 @@
-import com.sebastian_daschner.jenkins.pipeline.MetaInfo
+import tech.lacambra.jenkins.pipeline.MetaInfo
 
 MetaInfo create(Map params) {
     MetaInfo info = new MetaInfo()
